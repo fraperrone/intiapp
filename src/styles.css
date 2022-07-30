@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+  }
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  
+  .row-right {
+    text-align: right;
+  }
+  
+  #icon {
+    background-color: darkgrey;
+  }
+  
+  #container-banner {
+    display: grid;
+    grid-template-rows: 2fr 0.9fr;
+    gap: 0px 0px;
+    grid-auto-flow: column dense;
+    grid-template-areas:
+      ""
+      "";
+  }
+  
+  #perfil-img {
+    object-position: 0 -50px;
+  }
+  
+  #card-head-e {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  #test-br {
+    height: 500px;
+  }
+  
+  header {
+    background-color: lightsteelblue;
+  }
+  
+  .card {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  
+  #soc-media {
+    float: right;
+  }
+  
+  div.c-border{
+      border-radius: 2em;
+  }
+  
+  #banner{
+      background-image: url(./assets/imgs/banner-para-cv.png);
+      background-repeat: no-repeat;
+      background-size: 100% 70%; border-radius: 2em;
+  }
+  
+  .progress{
+      margin-top: 15px;
+      
+  }
+
+  main{
+    background-color: blue;
+  }
